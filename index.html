@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrionis Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    
+
+    <div  class="container  max-w-full">
+
+<!----------NAV SECTION------->
+<div class="navbar  max-w-full  bg-green-300">
+        <nav class="container flex justify-between items-center  bg-green-300  p-6  ">
+            <div class="logo  flex  gap-2">
+                <i class="ri-leaf-fill"></i><h1>Agri <span class="text-green-500">Onis</span></h1>
+            </div>
+
+            <i class="ri-menu-line  hidden cursor-pointer sm:block"  id="showicon" onclick="showMenu()"></i>
+
+            <div class="navLink  flex gap-12rem" id="navLink">
+
+                <i class="ri-close-line hidden cursor-pointer sm:block"  id="showicon"  onclick="hideMenu()"></i>
+
+                <ul class="flex flex-row gap-5 font-extrabold ">
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="about">About us</a></li>
+             <li><a href="#">Services</a> </li>
+             <li><a href="#">Contact Us</a> </li>
+                </ul>
+
+                <div class="side__menu   flex-row  px-12">
+                    <button  class="nav__btn bg-yellow-50 px-3  w-16 text-center">Login</button>
+                    <button  class="nav__btn bg-white">Register </button>
+                </div>
+
+            </div>
+          
+        </nav>
+        </div>
+
+
+        <!------------HERO SECTION--------->
+
+        <div  class="hero">
+
+            <div class="slider">
+
+                <div class="load"> </div>
+                    <div class="content  ">
+                        <div class="pricnciple  text-center">
+                <h1  class="text-green-500 font-extrabold top-96">Welcome To Agrionis</h1>
+<p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, odit debitis harum praesentium impedit 
+    saepe cumque iste quisquam ipsa aspernatur eos animi? Illo maiores hic sint a, rerum aperiam id.</p>            
+                        </div>
+                    </div>
+               
+
+            </div>
+
+        </div>
+
+
+
+        <!----------ABOUT US---------->
+
+<div  class="about">
+
+    <div class="about__heading  flex flex-col justify-center  text-center  pt-9">
+        <h1 class="text-green-500  font-extrabold  pb-6">About Us</h1>
+    </div>
+    <div class="about__wrapper  flex justify-around  items-center justify-center  sm:m-6 gap-8">
+        <div class="about__img  items-center justify-center">
+            <img src="./Image/team/team-1.jpg" alt="">
+        </div>
+
+        <div class="about__text ">
+            <h2 class="font-extrabold pb-4">Come Help Agroinore Work</h2>
+  <p  class="pb-4 opacity-85">We're looking to grow our teams with people who share our energy and enthusiasm for creating the best experience for job seekers and employers.
+Our mission is to create products that provide opportunities for all job seekers. To do this, we hire Indeedians of all backgrounds to mirror the job seekers we support. 
+That's why Inclusion and Belonging are core values inside Indeed  </p>
+           
+<a href="#"  class="text-green-500 font-bold">View more <i class="ri-arrow-right-fill"></i></a>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!----------FOOTER SECTION------>
+
+  <div  class="footers   bg-green-500  h-100">
+<footer class="container mt-7 flex" >
+
+    <div class="footer__wrapper  flex  justify-around p-7  gap-x-6"   data-aos="fade-left"
+    data-aos-easing="ease-in-sine" data-aos-delay="200"
+     data-aos-duration="600">
+
+
+        <div class="footer__box p-6">
+
+            <div class="footer__logo__heading  flex">
+<i class="ri-leaf-fill"></i>
+<h1  class="text-yellow-50">Agri<span class="">Onis</span></h1>
+</div>
+<p  class="w-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit distinctio incidunt reiciendis animi,
+</p>
+        </div>
+
+        <div class="footer__box p-6">
+
+            <h1>QUICK LINK</h1>
+
+            <ul  class="p-6">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="footer__box  p-6">
+
+            <h1>SUPPORT</h1>
+
+            <ul  class="p-6 gap-5">
+                <li><a href="#"><i class="ri-phone-line"> +234 567 897 567</i></a></li>
+                <li><a href="#"><i class="ri-mail-line"></i> agroinore@gmail.com</a></li>
+            
+            </ul>
+            
+        </div>
+        
+
+    </div>
+
+
+
+    <hr><hr>
+
+   </footer>
+
+</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+<!----------LINK TO JAVASCRIPT------->
+    <script src="main.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      
+</body>
+</html>
